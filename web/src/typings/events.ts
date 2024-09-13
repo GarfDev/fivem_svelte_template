@@ -50,5 +50,5 @@ export type DebugAction =
 
 export interface DebugItem {
     label: string
-    actions?: DebugAction[]
+    actions: DebugAction[]
 }
